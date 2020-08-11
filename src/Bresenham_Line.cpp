@@ -9,8 +9,7 @@ void BresenhamLine(int x1, int y1, int x2, int y2) {
 	x = x1; 
 	y = y1;
 	dx = x2 - x1;
-	dy = y2 - y1;
-	float m = dy / (float)dx;
+	dy = y2 - y1;	
 	p = 2 * dx - dy;	
 	glBegin(GL_POINTS);
 	while (x <= x2) {	
