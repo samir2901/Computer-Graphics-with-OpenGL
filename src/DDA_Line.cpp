@@ -15,7 +15,7 @@ void DDA(float x1, float y1, float x2, float y2) {
 	y = y1;
 	dx = x2 - x1;
 	dy = y2 - y1;
-	steps = (abs(dx) > abs(dy)) ? abs(dx) : abs(dy);
+	steps = (abs(dx) > abs(dy)) ? abs(dx) : abs(dy  );
 	xinc = dx / (float)steps;
 	yinc = dy / (float)steps;
 	glBegin(GL_POINTS);
