@@ -15,7 +15,7 @@ void DDA(float x1, float y1, float x2, float y2) {
 	y = y1;
 	dx = x2 - x1;
 	dy = y2 - y1;
-	steps = (abs(dx) > abs(dy)) ? abs(dx) : abs(dy);
+	steps = (int)((abs(dx) > abs(dy)) ? abs(dx) : abs(dy));
 	xinc = dx / (float)steps;
 	yinc = dy / (float)steps;
 	glBegin(GL_POINTS);
@@ -41,7 +41,7 @@ int main() {
 	width = 400;
 	height = 400;
 
-	int startX, startY, endX, endY;
+	float startX, startY, endX, endY;
 	
 	std::cout << "Enter startX: ";
 	std::cin >> startX;	
