@@ -10,7 +10,7 @@ void BresenhamLine(int x1, int y1, int x2, int y2) {
 	y = y1;
 	dx = x2 - x1;
 	dy = y2 - y1;	
-	p = 2 * dx - dy;	
+	p = 2 * dy - dx;	
 	glBegin(GL_POINTS);
 	while (x <= x2) {	
 		glVertex2i(x, y);
