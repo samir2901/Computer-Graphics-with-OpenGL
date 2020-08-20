@@ -17,19 +17,6 @@ int main() {
 	width = 400;
 	height = 400;
 
-	int startX, startY, endX, endY;
-
-	std::cout << "Enter startX: ";
-	std::cin >> startX;
-	std::cout << "Enter startY: ";
-	std::cin >> startY;
-	std::cout << "Enter endX: ";
-	std::cin >> endX;
-	std::cout << "Enter endY: ";
-	std::cin >> endY;
-
-	std::cout << "The points are: " << "(" << startX << ", " << startY << ") and (" << endX << ", " << endY << ")" << std::endl;
-
 	GLFWwindow* window;
 
 	if (!glfwInit()) {
@@ -53,7 +40,8 @@ int main() {
 		//Draw here
 		
 		//DDA((float)startX, (float)startY, (float)endX, (float)endY);
-		BresenhamLine(startX, startY, endX, endY);		
+		//BresenhamLine(startX, startY, endX, endY);		
+		midPointCircle(width/2, height/2, 100);
 
 		//
 		glfwSwapBuffers(window);

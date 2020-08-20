@@ -148,6 +148,7 @@
     <ClCompile Include="src\Bresenham_Line.cpp" />
     <ClCompile Include="src\DDA_Line.cpp" />
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\MidPointCircle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HeaderFiles\drawgraphics.h" />
