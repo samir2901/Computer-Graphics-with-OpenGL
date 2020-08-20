@@ -5,3 +5,4 @@
 |-------|------------------------|
 | 1.    | DDA Line Algorithm     |
 | 2.    | Bresenham's Line Drawing Algorithm (m < 1)|
+| 3.    | Midpoint Circle Algorithm |
