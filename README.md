@@ -4,5 +4,5 @@
 | Sl No.| Algorithms Implemented |
 |-------|------------------------|
 | 1.    | DDA Line Algorithm     |
-| 2.    | Bresenham's Line Drawing Algorithm (m < 1)|
+| 2.    | Bresenham's Line Drawing Algorithm (all cases)|
 | 3.    | Midpoint Circle Algorithm |
