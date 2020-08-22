@@ -14,8 +14,8 @@ void Init(int width, int height) {
 
 int main() {
 	int width, height;
-	width = 400;
-	height = 400;
+	width = 640;
+	height = 480;
 
 	GLFWwindow* window;
 
@@ -40,8 +40,11 @@ int main() {
 		//Draw here
 		
 		//DDA((float)startX, (float)startY, (float)endX, (float)endY);
-		//BresenhamLine(startX, startY, endX, endY);		
-		midPointCircle(width/2, height/2, 100);
+		BresenhamLine(0, 0, 400, 600);
+		BresenhamLine(0, 0, 400, 400);
+		BresenhamLine(0, 0, 400, 200);
+		//midPointCircle(width/2, height/2, 100);
+		
 
 		//
 		glfwSwapBuffers(window);
