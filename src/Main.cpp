@@ -40,11 +40,14 @@ int main() {
 		//Draw here
 		
 		//DDA((float)startX, (float)startY, (float)endX, (float)endY);
-		BresenhamLine(0, 0, 400, 600);
-		BresenhamLine(0, 0, 400, 400);
-		BresenhamLine(0, 0, 400, 200);
-		//midPointCircle(width/2, height/2, 100);
-		
+		BresenhamLine(300, 300, 100, 300);
+		BresenhamLine(100, 300, 100, 100);
+		BresenhamLine(100, 100, 300, 100);
+		BresenhamLine(300, 100, 300, 300);
+		BresenhamLine(300, 100, 100, 300);
+		BresenhamLine(100, 100, 300, 300);
+
+		//midPointCircle(width/2, height/2, 100);		
 
 		//
 		glfwSwapBuffers(window);
